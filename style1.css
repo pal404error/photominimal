@@ -1,0 +1,241 @@
+@font-face {
+	font-family: font1;
+    src: url(font1.otf);
+	
+}
+/*------------------------Body Setting-------------------*/
+.about{
+background-image: url("imagestuff/g.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
+  background-color:black;
+  background-size: 56%;
+overflow: hidden;
+color: white;
+}
+
+.works{
+background-image: url("imagestuff/works.jpeg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
+  background-color:black;
+  background-size: 80%;
+overflow: hidden;
+color: white;
+}
+.blog{
+background-image: url("imagestuff/umb.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; 
+  background-color:black;
+  background-size: 100%;
+overflow: hidden;
+color: black;
+}
+
+.contact{
+background-image: url("imagestuff/h.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; 
+  background-color:#d4d4d4;
+  background-size:100%;
+overflow: hidden;
+color: black;
+}
+
+/*---------------------------alt Settings----------------------*/
+.alt2{
+position:absolute;
+top: 20%;
+left: 75%;
+font-size:30px;
+color: black;
+font-family: font1;
+}
+
+.alt2 ul li{
+	list-style:none;
+	margin-top:30px;
+}
+
+.alt3{
+position:absolute;
+top: 27%;
+left: 70%;
+font-size:30px;
+color: white;
+font-family: font1;
+}
+
+.alt3 ul li{
+	list-style:none;
+	margin-top:30px;
+}
+
+.alt4{
+position:absolute;
+top: 18%;
+left: 58%;
+font-size:30px;
+color: black;
+font-family: font1;
+}
+
+.alt4 ul li{
+	list-style:none;
+	margin-top:15px;
+}
+
+.alt{
+position:relative;
+top:6%;
+font-size:30px;
+font-family: font1;
+}
+.alt ul li{
+	list-style:none;
+	margin-top:30px;
+}
+.button{background-color: #000000;
+	 border: 2px solid #000000;
+	}
+
+.img{
+	margin:auto;
+	width:70px;
+	
+}
+/*---------------------------------------------FORM---------------*/
+
+.form {
+	position:absolute;
+	width:30%;
+	height:auto;
+	left:61%;
+	top:63%;
+	background-color:#d4d4d8;
+  border-radius: 10px;
+  padding: 5px;
+  font-family:font1;
+  align:center;
+    text-align: center;
+}
+
+/*---------------------------------------------FORM End ---------------*/
+
+
+/*---------------------------------------------Margin Settings----------------------*/
+.mar{
+position:absolute;
+left:8%;
+font-family: font;
+}
+
+.mar1{
+position:absolute;
+left:63%;
+top:0.5%;
+font-family: font;
+}
+
+.mar2{
+position:absolute;
+left:58%;
+bottom:68%;
+font-family: font;
+}
+
+p.text{
+	font-family: font1;
+	font-size: 84px;
+}
+
+/* ----------------------the navbar settings----------------------*/
+.text1{
+	align:center;
+	width:99%;
+	position:absolute;
+	left: 68%;
+	top:89%;
+	font-family: font1;
+	font-size: 30px;
+}
+
+.text2{
+	align:center;
+	width:99%;
+	position:absolute;
+	top:83%;
+	font-family: font1;
+	font-size: 30px;
+}
+.text2 ul li{
+	list-style:none;
+	display:inline;
+	margin:10px;
+}
+
+.blognav{
+	align:center;
+	width:99%;
+	position:absolute;
+	top:83%;
+	left:2.5%;
+	font-family: font1;
+	font-size: 30px;
+}
+.blognav ul li{
+	list-style:none;
+	display:inline;
+	margin:10px;
+}
+
+.contactnav{
+	align:center;
+	width:99%;
+	position:absolute;
+	top:88%;
+	left:69%;
+	font-family: font1;
+	font-size: 30px;
+}
+.contactnav ul li{
+	list-style:none;
+	display:inline;
+	margin:10px;
+}
+
+
+.text1 ul li{
+	list-style:none;
+	display:inline;
+	margin:10px;
+}
+
+/*------------------------Links Format-----------------*/
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}

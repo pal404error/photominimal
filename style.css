@@ -1,0 +1,89 @@
+@font-face {
+	font-family: font1;
+    src: url(font1.otf);
+	
+}
+body{
+background-image: url("imagestuff/por.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+color: white;
+}
+.alt{
+position:relative;
+top:6%;
+font-size:30px;
+font-family: font1;
+}
+.alt ul li{
+	list-style:none;
+	margin-top:30px;
+}
+.music{
+	float:right;
+	margin-top:20%;
+	margin-right:5%;
+	font-family:font1;
+}
+.button{
+	background-color: #000000;
+	border: 2px solid #000000;
+	}
+
+
+.music ul li{
+	display:inline;
+	vertical-align: middle
+}
+
+.img{
+	margin:auto;
+	width:70px;
+	
+}
+.mar{
+position:absolute;
+left:8%;
+font-family: font;
+}
+p.text{
+	font-family: font1;
+	font-size: 84px;
+}
+.text1{
+	align:center;
+	width:99%;
+	position:absolute;
+	left: 60%;
+	top:89%;
+	font-family: font1;
+	font-size: 30px;
+}
+.text1 ul li{
+	list-style:none;
+	display:inline;
+	margin: 15px;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+  text-decoration: none;
+}
