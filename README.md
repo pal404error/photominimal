@@ -1,0 +1,2 @@
+# photominimal
+Simple Photograpy website
